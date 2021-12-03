@@ -67,3 +67,27 @@ body {
 .active {
     display: block;
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .container {
+        width: 90vw;
+    }
+
+    .content-container {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .image {
+        width: 100%;
+    }
+    .img-container {
+        margin-bottom: 20px;
+    }
+}
