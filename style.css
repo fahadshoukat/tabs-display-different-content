@@ -21,7 +21,7 @@ body {
 .content-container {
     display: grid;
     grid-template-columns: auto auto;
-    place-items: center;
+    margin-top: 20px;
 }
 
 .img-container {
@@ -35,3 +35,35 @@ body {
     border-radius: 8px;
 }
 
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgrey;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.btn {
+    border: none;
+    background: transparent;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: 0.3s linear;
+    display: block;
+}
+
+.content h4 {
+    text-align: start;
+}
+
+.content p {
+    text-align: start;
+}
+.content {
+    display: none;
+    padding: 10px;
+}
+
+.active {
+    display: block;
+}
