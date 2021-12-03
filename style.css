@@ -18,3 +18,20 @@ body {
     text-align: center;
 }
 
+.content-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    place-items: center;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    object-fit: cover;
+    height: 200px;
+    border-radius: 8px;
+}
+
