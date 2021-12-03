@@ -22,6 +22,7 @@ body {
     display: grid;
     grid-template-columns: auto auto;
     margin-top: 20px;
+    background-color: white;
 }
 
 .img-container {
